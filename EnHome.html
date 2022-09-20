@@ -139,7 +139,7 @@ Haosong Yue, <b>Jinyu Miao</b>, Yue Yu*, <i>et al.</i> <br />
 
 </span>
 
-<a href="javascript:;" id="btn">>>>More</a>
+<a href="javascript:;" id="btn">>>> All Publications</a>
 <script type="text/javascript">
     var btn = document.getElementById('btn');
     var content = document.getElementById('content');
@@ -148,10 +148,10 @@ Haosong Yue, <b>Jinyu Miao</b>, Yue Yu*, <i>et al.</i> <br />
     btn.onclick = function() {
         if (notvis) {
             content.innerHTML = "";
-            btn.innerHTML = '>>>More'
+            btn.innerHTML = '>>> All Publications'
         } else {
             content.innerHTML = str
-            btn.innerHTML = '<<<';
+            btn.innerHTML = '<<< Recent Publications';
         }
         notvis = !notvis;
         return false;

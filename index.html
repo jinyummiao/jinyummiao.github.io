@@ -142,7 +142,7 @@ Haosong Yue, <b>Jinyu Miao</b>, Yue Yu*, <i>et al.</i> (学生一作) <br />
 
 </span>
 
-<a href="javascript:;" id="btn">>>>更多</a>
+<a href="javascript:;" id="btn">>>> 全部成果</a>
 <script type="text/javascript">
     var btn = document.getElementById('btn');
     var content = document.getElementById('content');
@@ -151,10 +151,10 @@ Haosong Yue, <b>Jinyu Miao</b>, Yue Yu*, <i>et al.</i> (学生一作) <br />
     btn.onclick = function() {
         if (notvis) {
             content.innerHTML = "";
-            btn.innerHTML = '>>>更多'
+            btn.innerHTML = '>>> 全部成果'
         } else {
             content.innerHTML = str
-            btn.innerHTML = '<<<';
+            btn.innerHTML = '<<< 近期成果';
         }
         notvis = !notvis;
         return false;
