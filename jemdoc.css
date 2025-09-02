@@ -68,7 +68,7 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #6a0dad; /*#224b8d;*/
+	color: #000, /*#6a0dad; #224b8d;*/
 	text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #9370db; /*#527bbd;*/
+	color: #000, /*#9370db; #527bbd;*/
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
